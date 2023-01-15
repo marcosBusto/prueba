@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+   </head>
+<body>
+  <%- include("../views/header"); %> 
+  <%- include("../views/toolbar"); %> 
+  <section class="home-section">
+    <div class="title-body-content">
+      <h2>Welcome to Buoy Viewer</h2>
+    </div>
+    <div class="body-content">
+      <div class="text">
+        <span>
+          Welcome to Buoy Viewer, a web aplication able to represent and analyse scientific buoys information distributed around the world.
+          This service offered by Buoy Viewer is divided in two functionalities: 'Map' and 'Analyse'.
+          The 'Map' service allows the user to visualize and interact with the information showed in the map via points that, when clicked, will pop-up a bit of the information of the buoy. This service will also allow the users to download data in different formats.
+          The 'Analyse' service allows to get a deeper analysis of the buoys belonging to a specific cruise. This service only can be accessed if the user is logged in.
+          In the 'About us' section you will find information about the creators of Buoy Viewer, and in the 'Contact us' you will be able to contact via e-mail for providing feedback.
+        </span>
+        <ul class="list">
+          <li>hola</li>
+        </ul>
+      </div>
+      <div class="image"></div>
+    </div>
+  </section>
+</body>
+</html>
+<script src="/js/main.js"></script>
